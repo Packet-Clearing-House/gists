@@ -4,7 +4,7 @@
 # Seed your htpasswd file with random
 # passwords for a specified user list.
 # 
-# mrones@pch.net 1.14.15
+# mrjones@pch.net 1.14.15
 ########################################
 
 ########################################
