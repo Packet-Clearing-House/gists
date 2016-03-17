@@ -1,4 +1,15 @@
 #!/bin/bash
+
+########################################
+# Quickly create N passphrases of
+# of Y words.  So to create 5 passphrases
+# of 10 words long, run:
+#
+#    ./random.htpassphrase.sh 10 5
+#
+# mrjones@pch.net 3.17.16
+########################################
+
 if [[ $1 =~ ^[[:digit:]]+$ ]]; then
     COUNT=$1
 else
