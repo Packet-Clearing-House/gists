@@ -5,15 +5,18 @@
 # To use you'll need to swap in your own USERNAME and PASSWORD below.
 # As well, be sure to specify the correct URL you're looking to download
 
+echo ".pch.net	TRUE	/	FALSE	1776643854	pch_nonce100	100" > cookies.txt
+
 wget --delete-after \
      --keep-session-cookies \
      --save-cookies cookies.txt \
-     --post-data 'username=USERNAME&password=PASSWORD&duration=20' \
-     https://prefix.pch.net/applications/login/index.php
+     --load-cookies cookies.txt \
+     --post-data 'login=USERNAME&password=PASSWORD&pch_nonce=100&form_login=form_login' \
+     https://www.pch.net/user/login
 
 wget --continue \
     --force-directories \
-    --wait=10 \ 
+    --wait=10 \
     --random-wait \
     --execute robots=off \
     --load-cookies cookies.txt \
