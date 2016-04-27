@@ -21,8 +21,8 @@ wget --continue \
     --execute robots=off \
     --load-cookies cookies.txt \
     --recursive \
-    --no-parent \ 
-    --convert-links \ 
-    --force-directories \ 
+    --no-parent \
+    --convert-links \
+    --force-directories \
     https://www.pch.net/resources/IARPA/Releases/release5labeled/
 # NB trailing slash
