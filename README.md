@@ -8,3 +8,4 @@ Current gists are:
 * random.htpassphrase.sh - bash script to generate pass phrases
 * random.htpasswds.sh - bash script to populate an .htpassword file 
     with usernames and rand passwords
+* dns.stats.csv.sh - wget bash script to download DNS query stats
