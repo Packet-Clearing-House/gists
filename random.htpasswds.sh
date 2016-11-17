@@ -1,5 +1,13 @@
 #!/bin/bash 
 
+
+#
+# Packet Clearing House
+# c2016
+# MIT License
+# https://github.com/Packet-Clearing-House/gists
+#
+
 ########################################
 # Seed your htpasswd file with random
 # passwords for a specified user list.

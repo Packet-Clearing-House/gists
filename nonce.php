@@ -1,4 +1,10 @@
 <?php
+/**
+ * Packet Clearing House
+ * c2016
+ * MIT License
+ * https://github.com/Packet-Clearing-House/gists
+ */
 
 // functiona used to do nonces to fight CSRF at PCH
 // NONCE_KEY is a constant defined in config

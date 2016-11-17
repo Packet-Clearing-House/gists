@@ -1,3 +1,10 @@
+/**
+ * Packet Clearing House
+ * c2016
+ * MIT License
+ * https://github.com/Packet-Clearing-House/gists
+ */
+
 /** - thanks http://stackoverflow.com/a/1063027
  * @param a
  * @param b

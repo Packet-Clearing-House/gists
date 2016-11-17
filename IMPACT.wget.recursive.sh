@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#
+# Packet Clearing House
+# c2016
+# MIT License
+# https://github.com/Packet-Clearing-House/gists
+#
+
 # Special thanks to Francis O'Donovan francis.odonovan@bostonfusion.com
 
 # To use you'll need to swap in your own USERNAME and PASSWORD below.

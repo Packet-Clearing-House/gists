@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#
+# Packet Clearing House
+# c2016
+# MIT License
+# https://github.com/Packet-Clearing-House/gists
+#
+
 # To use this script you'll need to swap in your own USERNAME, PASSWORD, TLD
 # and DATE below. DATE should be YEARMONTHDAY format like "20160401". TLD should have the
 # leading dot like ".com".  Finally, be sure to keep the ampersands (&) escaped

@@ -1,5 +1,13 @@
 #!/bin/bash
 
+
+#
+# Packet Clearing House
+# c2016
+# MIT License
+# https://github.com/Packet-Clearing-House/gists
+#
+
 ########################################
 # Quickly create N passphrases of
 # of Y words.  So to create 5 passphrases
