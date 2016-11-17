@@ -1,4 +1,4 @@
-SS - thanks http://stackoverflow.com/a/1063027
+/** - thanks http://stackoverflow.com/a/1063027
  * @param a
  * @param b
  * @returns {number}
