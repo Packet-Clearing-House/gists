@@ -34,7 +34,7 @@ function generateRanksFromMultipleRows(rawValues, key) {
 }
 
 /**
- * isntead of looping over many values to count the rows like generateRanksFromMultipleRows(),
+ * instead of looping over many values to count the rows like generateRanksFromMultipleRows(),
  * use one value (countKey) per row to derive ranks
  * @param rawValues array of json objects
  * @param key string of value to count
