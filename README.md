@@ -5,7 +5,7 @@ Current gists are:
 
 * [IMPACT.wget.recursive.sh](https://github.com/Packet-Clearing-House/gists/blob/master/IMPACT.wget.recursive.sh) - wget bash script to download [IMPACT](https://www.impactcybertrust.org/)  (formerly PREDICT) datasets hosted at PCH
 * [nonce.php](https://github.com/Packet-Clearing-House/gists/blob/master/nonce.php) - a snippet of how we do nonces for [anti-CSRF](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29) on pch.net
-* [random.htpassphrase.sh](https://github.com/Packet-Clearing-House/gists/blob/master/) - bash script to generate pass phrases
+* [random.htpassphrase.sh](https://github.com/Packet-Clearing-House/gists/blob/master/random.htpassphrase.sh) - bash script to generate pass phrases
 * [random.htpasswds.sh](https://github.com/Packet-Clearing-House/gists/blob/master/random.htpasswds.sh) - bash script to populate an .htpassword file 
     with usernames and rand passwords
 * [dns.stats.csv.sh](https://github.com/Packet-Clearing-House/gists/blob/master/dns.stats.csv.sh) - wget bash script to download DNS query stats
