@@ -9,4 +9,4 @@ Current gists are:
 * random.htpasswds.sh - bash script to populate an .htpassword file 
     with usernames and rand passwords
 * dns.stats.csv.sh - wget bash script to download DNS query stats
-* maptable.percentile.helper.js - JavaScript helper methods if you want to generate ranks for your [maptable](https://github.com/Packet-Clearing-House/maptable/tree/dev-34) values which you can then use to generate percentile color transforms.  Used on all pch.net maps (eg [IXP Dir](https://www.pch.net/ixp/dir)). Requires jQuery.
+* maptable.percentile.helper.js - JavaScript helper methods if you want to generate ranks for your [maptable](https://github.com/Packet-Clearing-House/maptable/tree/dev-34) values which you can then use to generate percentile color transforms.  Used on all pch.net maps (eg [IXP Dir](https://www.pch.net/ixp/dir)). Requires [jQuery](https://jquery.com/).
