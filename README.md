@@ -14,7 +14,7 @@ Gists from [PCH](http://pch.net) - since github doesn't support actual gists for
     with usernames and rand passwords
 * [dns.stats.csv.sh](https://github.com/Packet-Clearing-House/gists/blob/master/dns.stats.csv.sh) - wget bash script to download DNS query stats
 * [maptable.percentile.helper.js](https://github.com/Packet-Clearing-House/gists/blob/master/maptable.percentile.helper.js) - JavaScript helper methods if you want to generate ranks for your [maptable](https://github.com/Packet-Clearing-House/maptable/tree/dev-34) values which you can then use to generate percentile color transforms.  Used on all pch.net maps (eg [IXP Dir](https://www.pch.net/ixp/dir)). Requires [jQuery](https://jquery.com/).
-
+* [sha512.php](https://github.com/Packet-Clearing-House/gists/blob/master/sha512.php) - Simple PHP script to take clear text password and generate SHA512 hash.  Uses openssl_random_pseudo_bytes() to generate 10 char salt and uses 5000 rounds of hashing - both via crypt().
 
 ## License
 
