@@ -8,6 +8,7 @@ if (!empty($_POST['password'])) {
     // to hash password.
     $secure = true;
     $dataBin = openssl_random_pseudo_bytes(10, $secure);
+
     $salt = bin2hex($dataBin);
     $hash = crypt($_POST['password'], '$6$rounds=5000$' . $salt . '$');
 
@@ -32,6 +33,17 @@ if (!empty($_POST['password'])) {
             });
         </script>";
 }
+// check for PCH specific css and logo
+if (is_file('pch_logo.plain.dark.svg')){
+    $logoHtml = '<img src="pch_logo.plain.dark.svg" />';
+} else {
+    $logoHtml = '';
+}
+if (is_file('black.css')){
+    $cssHtml = '<link rel="stylesheet" media="all" type="text/css" href="black.css" />';
+} else {
+    $cssHtml = '';
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,6 +51,7 @@ if (!empty($_POST['password'])) {
         <title>SHA512 HASHER</title>
     </head>
     <body>
+        <?php echo $logoHtml ?>
         <h1>SHA512 HASHER</h1>
         <p>
             <form method="post" action="./<?php echo basename(__FILE__ ) ?>" >
@@ -50,5 +63,6 @@ if (!empty($_POST['password'])) {
         <p>
             <?php echo $hashResultHtml ?>
         </p>
+        <?php echo $cssHtml ?>
     </body>
 </html>
