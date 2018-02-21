@@ -56,7 +56,7 @@ if (is_file('black.css')){
         <p>
             <form method="post" action="./<?php echo basename(__FILE__ ) ?>" >
                 Password To Hash:<br />
-                <input type="text" name="password" value="" /><br />
+                <input type="text" name="password" autocomplete="off" value="" /><br />
                 <input type="submit" name="Generate Hash" value="Generate Hash" />
             </form>
         </p>
