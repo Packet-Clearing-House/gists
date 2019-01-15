@@ -18,6 +18,7 @@ Gists from [PCH](http://pch.net) - since github doesn't support actual gists for
 * [sha512.php](https://github.com/Packet-Clearing-House/gists/blob/master/sha512.php) - Simple PHP script to take clear text password and generate SHA512 hash.  Uses ``openssl_random_pseudo_bytes()`` to generate 10 char salt and uses 5000 rounds of hashing - both via ``crypt()``. This does have two lines endemic PCH css and logo - but they only output if the files are present via ``is_file()``
 * [apachetop.load.ps.sh](https://github.com/Packet-Clearing-House/gists/blob/master/apachetop.load.ps.sh) - While debugging our web server running Apache on Centos 6.8 we needed a way to easily correlate high load average with web traffic.  This bash script which logs load average, top process by count and top IP/Count/Directory from the apache access_log solved the problem nicely!
 * [dump.sql.gpg.sh](https://github.com/Packet-Clearing-House/gists/blob/master/dump.sql.gpg.sh) - Working through our process to be [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliant, we now encrypt all database dumps/backups with GPG.  This script enables developers to easily make encrypted backups with a mini-wizard on an ad-hoc basis. Be sure the run ``gpg --import KEY`` with they key you want to use in backup first.
+* [onetimesecret.php](https://github.com/Packet-Clearing-House/gists/blob/master/onetimesecret.php) - PCH needed a secure way to share secrets. This is simplistic copy of [onetimesecret.com](https://onetimesecret.com).
 
 ## License
 
