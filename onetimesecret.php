@@ -49,7 +49,7 @@ if (isset($_GET['f'])){
 
 // check if we got a secret (s) and write it of possible
 $rand = random_str(40);
-if (isset($_POST['s']) && is_writable($baseDir . $rand)){
+if (isset($_POST['s']) && is_writable($baseDir)){
     file_put_contents($baseDir . $rand, $_POST['s']);
     $contents = "View this URL to see your secret. You may do so only once!! <br /> <input type='text' value='" . $baseLink. $rand . "' size='50'>";
 }
